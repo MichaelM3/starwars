@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 * Ruby version
+2.7.0
 
 * System dependencies
+rest-client
+json
 
 * Configuration
+postgresql database
+database looks for postgres username env variable for password
+change config to your needs
 
 * Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails db:create
+seed file already has necessary calls to swapi
+rails db:seed 
